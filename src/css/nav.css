@@ -54,11 +54,6 @@ button {
     font-size: var(--normal-font-size);
 }
 
-body {
-    background-color: var(--body-color);
-    color: var(--text-color);
-}
-
 input,
 button {
     border: none;
