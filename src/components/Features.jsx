@@ -1,49 +1,38 @@
 import React from 'react'
-import { FastFood, FoodBank, Location, User } from './icons'
+import { FastFood, FoodBank, Location, MDiscount, MReviews, User } from './icons'
 
 const Features = () => {
   return (
     <div>
-        <div className='w-[80%] m-auto p-2'>
-            <p className='font-bold text-xl'>Services</p>
-            <div className='flex items-center justify-center gap-10 p-4'>
-                <div className='flex items-center justify-center flex-wrap gap-10 pt-5'>
-                    <div className='w-36 text-center'>
-                    <div className='bg-orange w-16 h-16 text-3xl  rounded-full flex items-center justify-center m-auto'>
-                        <FoodBank/>
-                    </div>
-                    <p className='text-sm font-semibold'>Restaurant Profile</p>
-                    <p className='text-sm'>Easily create and manage restaurant profiles.</p>
-                    </div>           
-                </div>
-                <div className='flex items-center justify-center flex-wrap gap-10 pt-5'>
-                    <div className='w-36 text-center'>
-                    <div className='w-16 h-16 text-3xl bg-brownish rounded-full flex items-center justify-center m-auto'>
-                        <User/>
-                    </div>
-                    <p className='text-sm font-semibold'>Restaurant Profile</p>
-                    <p className='text-sm'>Easily create and manage restaurant profiles.</p>
-                    </div>           
-                </div>
-                <div className='flex items-center justify-center flex-wrap gap-10 pt-5'>
-                    <div className='w-36 text-center'>
-                    <div className='bg-gray w-16 h-16 text-3xl  rounded-full flex items-center justify-center m-auto'>
-                        <FastFood/>
-                    </div>
-                    <p className='text-sm font-semibold'>Restaurant Profile</p>
-                    <p className='text-sm'>Easily create and manage restaurant profiles.</p>
-                    </div>           
-                </div>
-                <div className='flex items-center justify-center flex-wrap gap-10 pt-5'>
-                    <div className='w-36 text-center'>
-                    <div className='bg-grayish w-16 h-16 text-3xl  rounded-full flex items-center justify-center m-auto'>
-                        <Location/>
-                    </div>
-                    <p className='text-sm font-semibold'>Restaurant Profile</p>
-                    <p className='text-sm'>Easily create and manage restaurant profiles.</p>
-                    </div>           
-                </div>
+        <div className='w-[80%] m-auto mt-20 p-2'>
+            <p className='font-bold text-2xl text-center text-orange'>Services</p>
+            <div className='flex items-center justify-center flex-wrap gap-4 p-4 mt-4'>
+               <div className='h-52 w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
+                    <span className='text-5xl text-orange'><FastFood/></span>
+                    <p className='font-bold mt-2 text-lg'>Seamless Ordering</p>
+                    <p className='text-xs font-semibold text-gray mt-3'>Experience easy ordering with simple navigation and live order updates.</p>
+               </div>
+
+               <div className='h-52 w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
+                    <span className='text-5xl text-orange'><Location/></span>
+                    <p className='font-bold mt-2 text-lg'>Local Restaurants</p>
+                    <p className='text-xs font-semibold text-gray mt-3'>Discover nearby restaurants available for convenient online ordering.</p>
+               </div>
+
+               <div className='h-52 w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
+                    <span className='text-5xl text-orange'><MDiscount/></span>
+                    <p className='font-bold mt-2 text-lg'>Offers / Discounts</p>
+                    <p className='text-xs font-semibold text-gray mt-3'>Benefit from exclusive promotions and discounts offerred by Bites.</p>
+               </div>
+
+               <div className='h-52 w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
+                    <span className='text-5xl text-orange'><MReviews/></span>
+                    <p className='font-bold mt-2 text-lg'>Reviews / Ratings</p>
+                    <p className='text-xs font-semibold text-gray mt-3'>Read genuine user reviews and ratings for informed dining choices.</p>
+               </div>
             </div>
+
+            
             
         </div>
     </div>

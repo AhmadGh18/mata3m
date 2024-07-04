@@ -4,26 +4,55 @@ import { CSearch, Delivery, Menu } from './icons'
 const About = () => {
   return (
     <div>
-        <div className='w-[80%] m-auto p-2'>
-            <p className='font-bold text-xl'>How it works</p>
-            <div className='flex items-center justify-center flex-wrap gap-10 pt-5'>
-                <div className='p-4 border-[1.5px] border-grayish rounded-md w-56 h-30'>
-                    <CSearch/>
-                    <p className='text-sm font-bold'>Find your nearby restaurant</p>
-                    <p className='text-xs text-brownish font-semibold'>Browse nearby restaurants and search for foor by cuisine or restaurant name.</p>
+        <div className='w-[80%] m-auto p-2 mt-10'>
+            <p className='font-bold text-orange text-2xl text-center'>How it works</p>
+            <div className='flex items-center justify-center flex-wrap gap-24 pt-5 pl-12'>
+               
+                <div className='bg-white w-64 h-20 rounded-2xl relative flex items-center justify-center shadow-md'> 
+                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-56 p-1'>
+                        <div className='bg-white w-full h-full rounded-full  flex items-center justify-center'>
+                            <img className='w-full h-full rounded-full' src="images/search.jpg" alt="" />
+                        </div>
+                        
+                    </div>
+                    <div className='absolute left-[60px]'>
+                            <p className='text-lg font-semibold'>Find your nearby restaurant</p>
+                    </div>
+                    <span className='radius bg-orange text-white p-2  absolute right-0 bottom-0'>
+                        <CSearch className='font-bold text-lg mr-[-2px]'/>
+                    </span>
                 </div>
 
-                <div className='p-4 border-[1.5px] border-grayish rounded-md w-56 h-30'>
-                    <Menu/> 
-                    <p className='text-sm font-bold'>Choose your menu items</p>
-                    <p className='text-xs text-brownish font-semibold'>Explore the menu and pick favorite dishes. Satisfy any craving with delicious options.</p>
+                <div className='bg-white w-64 h-20 rounded-2xl relative flex items-center justify-center shadow-md'> 
+                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-56 p-1'>
+                        <div className='bg-white w-full h-full rounded-full  flex items-center justify-center'>
+                            <img className='w-full h-full rounded-full' src="images/menu.jpg" alt="" />
+                        </div>
+                        
+                    </div>
+                    <div className='absolute left-[60px]'>
+                            <p className='text-lg font-semibold'>Choose your menu items</p>
+                    </div>
+                    <span className='radius bg-orange text-white p-2  absolute right-0 bottom-0'>
+                        <Menu className='font-bold text-lg mr-[-2px]'/>
+                    </span>
                 </div>
 
-                <div className='p-4 border-[1.5px] border-grayish rounded-md w-56 h-30'>
-                    <Delivery/>
-                    <p className='text-sm font-bold'>Order your food</p>
-                    <p className='text-xs text-brownish font-semibold'>Pick up your food to go, or get it delivered straight to your door, fresh and fast.</p>
-                </div>                
+                <div className='bg-white w-64 h-20 rounded-2xl relative flex items-center justify-center shadow-md'> 
+                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-56 p-1'>
+                        <div className='bg-white w-full h-full rounded-full  flex items-center justify-center'>
+                            <img className='w-full h-full rounded-full' src="images/order.jpg" alt="" />
+                        </div>
+                        
+                    </div>
+                    <div className='absolute left-[60px]'>
+                            <p className='text-lg font-semibold'>Order your desired food</p>
+                    </div>
+                    <span className='radius bg-orange text-white p-2  absolute right-0 bottom-0'>
+                        <Delivery className='font-bold text-lg mr-[-2px]'/>
+                    </span>
+                </div>
+
             </div>
         </div>
     </div>
