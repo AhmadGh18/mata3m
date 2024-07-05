@@ -18,7 +18,7 @@ const Search = () => {
         </div>
 
         <div className='w-3/5 h-full flex items-center justify-center'>
-            <img className='h-[470px] ml-24' src="images/pasta.png" alt="" />
+            <img className='h-[500px] ml-32' src="images/pasta.png" alt="" />
         </div>
         
     </div>

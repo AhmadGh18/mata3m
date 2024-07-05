@@ -9,9 +9,9 @@ const About = () => {
             <div className='flex items-center justify-center flex-wrap gap-24 pt-5 pl-12'>
                
                 <div className='bg-white w-64 h-20 rounded-2xl relative flex items-center justify-center shadow-md'> 
-                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-56 p-1'>
+                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-52 p-1.5'>
                         <div className='bg-white w-full h-full rounded-full  flex items-center justify-center'>
-                            <img className='w-full h-full rounded-full' src="images/search.jpg" alt="" />
+                            <img className='border-4 border-orange w-full h-full rounded-full' src="images/search.jpg" alt="" />
                         </div>
                         
                     </div>
@@ -24,9 +24,9 @@ const About = () => {
                 </div>
 
                 <div className='bg-white w-64 h-20 rounded-2xl relative flex items-center justify-center shadow-md'> 
-                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-56 p-1'>
+                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-52 p-1.5'>
                         <div className='bg-white w-full h-full rounded-full  flex items-center justify-center'>
-                            <img className='w-full h-full rounded-full' src="images/menu.jpg" alt="" />
+                            <img className='border-4 border-orange w-full h-full rounded-full' src="images/menu.jpg" alt="" />
                         </div>
                         
                     </div>
@@ -39,9 +39,9 @@ const About = () => {
                 </div>
 
                 <div className='bg-white w-64 h-20 rounded-2xl relative flex items-center justify-center shadow-md'> 
-                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-56 p-1'>
+                    <div className='absolute bg-lightgray w-28 h-28 rounded-full  right-52 p-1.5'>
                         <div className='bg-white w-full h-full rounded-full  flex items-center justify-center'>
-                            <img className='w-full h-full rounded-full' src="images/order.jpg" alt="" />
+                            <img className='border-4 border-orange w-full h-full rounded-full' src="images/order.jpg" alt="" />
                         </div>
                         
                     </div>
