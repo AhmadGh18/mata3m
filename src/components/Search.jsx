@@ -4,7 +4,7 @@ import { ArrowForward, Fire } from './icons'
 
 const Search = () => {
   return (
-    <div className='main h-[480px]   flex items-center justify-between   w-11/12  m-auto '>
+    <div className='main h-[480px]   flex items-center justify-between   w-11/12  m-auto mt-10'>
         <div className='w-2/5 h-full p-5'>
             <p className='mt-16 py-[1.7px] pr-1 pl-2 w-32 rounded-[50px]  bg-light-green text-dark-green flex items-center justify-between'>
                   <span className='font-semibold text-sm ml-1'>Hot Offer</span>
@@ -17,8 +17,8 @@ const Search = () => {
             </button>
         </div>
 
-        <div className='w-3/5 h-full flex items-center justify-center'>
-            <img className='h-[500px] ml-32' src="images/pasta.png" alt="" />
+        <div className='w-3/5 h-full flex items-center justify-center relative'>
+            <img className='h-[500px] absolute right-0' src="images/pasta.png" alt="" />
         </div>
         
     </div>
