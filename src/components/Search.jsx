@@ -1,25 +1,35 @@
 import React from 'react'
 import { CiSearch } from 'react-icons/ci'
-import { ArrowForward, Fire } from './icons'
+import { ArrowForward, CSearch, Fire } from './icons'
+import Navbar from './Navbar'
 
 const Search = () => {
   return (
-    <div className='main h-[480px]   flex items-center justify-between   w-11/12  m-auto mt-10'>
-        <div className='w-2/5 h-full p-5'>
-            <p className='mt-16 py-[1.7px] pr-1 pl-2 w-32 rounded-[50px]  bg-light-green text-dark-green flex items-center justify-between'>
-                  <span className='font-semibold text-sm ml-1'>Hot Offer</span>
-                 <span className='h-8 w-8 rounded-full bg-white flex items-center justify-center shadow-lg'><Fire/></span>
-                 </p>
-            <p className='text-5xl mt-4 text-justify font-bold'>Get <span className='text-orange'>0$</span> delivery fee on your <span className='text-orange'>first order</span></p>
-            <p className='text-xl mt-4 text-black'>Order from your favorite restaurant</p>
-            <button className='mt-4 bg-lightorange shadow-sm shadow-lightorange text-white rounded-md py-2 px-4 font-bold flex items-center justify-center gap-2'>
-                Order Now <span className='bg-white text-lightorange p-1 rounded shadow'><ArrowForward/></span>
-            </button>
+    
+    <div className='main h-[632px]   bg-[url("images/bg2.jpg")]   w-full bg-no-repeat bg-cover bg-center '>
+      <Navbar/>
+       <div className='flex items-center justify-between w-full px-10 mt-8 h-[500px]'>
+       <div className='w-full sm:w-2/5 h-full p-5 text-white mt-20'>
+        
+            <p className='text-4xl sm:text-5xl mt-4 text-justify font-bold font-nunito'>Discover and <span className='text-orange'>order</span> delicious meals from <span className='text-orange'>nearby</span> restaurants.</p>
+            <p className='text-xl mt-4 text-white font-outfit'>Enjoy a seamless food ordering experience.</p>
+           
+           <div className='bg-white flex items-center justify-between w-80 p-1 rounded-md mt-7'>
+              <div className='flex justify-center items-center text-orange gap-4'>
+                  <span className='text-xl font-extrabold'><CSearch/></span>
+                  <input type="text" placeholder='Search' className='placeholder:text-orange focus:outline-none'/>
+              </div>
+              <button className='bg-orange px-2 py-1 text-sm  rounded-3xl font-bold'>
+                Find Food
+              </button>
+           </div>
+          
         </div>
 
-        <div className='w-3/5 h-full flex items-center justify-center relative'>
-            <img className='h-[500px] absolute right-0' src="images/pasta.png" alt="" />
+        <div className='w-3/5 h-full hidden sm:flex items-center justify-center relative'>
+            <img className='rotate h-[480px] absolute right-0 bg-transparent' src="images/file.png" alt="" />
         </div>
+       </div>
         
     </div>
   )

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div className="bg-lightgray h-screen w-full overflow-y-scroll">
-      <Navbar />
+      {/* <Navbar /> */}
       <Search />
       <About />
       <Features />

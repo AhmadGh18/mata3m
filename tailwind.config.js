@@ -13,7 +13,13 @@ export default {
       'lightorange': '#fa972f',
       'lightgray': '#f3f3f3',
       'light-green': '#e9fdb6',
-      'dark-green' : '#789138'
+      'dark-green' : '#789138',
+      'transparent' : 'transparent',
+    },
+
+    fontFamily: {
+      nunito: ["Nunito Sans", "sans-serif"],
+      outfit: ["Outfit", "sans-serif"],
     },
    
     extend: {
