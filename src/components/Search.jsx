@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 const Search = () => {
   return (
     
-    <div className='main h-[632px]   bg-[url("images/bg2.jpg")]   w-full bg-no-repeat bg-cover bg-center '>
+    <div className='main h-screen   bg-[url("images/bg2.jpg")]   w-full bg-no-repeat bg-cover bg-center '>
       <Navbar/>
        <div className='flex items-center justify-between w-full px-10 mt-8 h-[500px]'>
        <div className='w-full sm:w-2/5 h-full p-5 text-white mt-20'>
