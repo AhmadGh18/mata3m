@@ -11,5 +11,7 @@ import { MdReviews as MReviews } from "react-icons/md";
 import { MdDiscount as MDiscount } from "react-icons/md";
 import { FaPhoneAlt as EPhone} from "react-icons/fa";
 import { BiLogoGmail as BMail } from "react-icons/bi";
+import { FaXTwitter as Twitter } from "react-icons/fa6";
+import { FaInstagram as Instagram } from "react-icons/fa";
 
-export { Menu, CSearch, Delivery, FoodBank, User, FastFood, Location, Fire, ArrowForward, MReviews, MDiscount , EPhone, BMail}
+export { Menu, CSearch, Delivery, FoodBank, User, FastFood, Location, Fire, ArrowForward, MReviews, MDiscount , EPhone, BMail, Twitter, Instagram}

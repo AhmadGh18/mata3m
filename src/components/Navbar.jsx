@@ -1,5 +1,5 @@
 import React from 'react'
-import { CSearch, User } from './icons'
+import { CSearch, Instagram, Twitter, User } from './icons'
 
 const Navbar = () => {
   return (
@@ -18,9 +18,14 @@ const Navbar = () => {
       <div className='flex items-center justify-center gap-2'>
         
         
-        <button className='bg-orange  text-white font-bold flex items-center justify-center gap-1  w-[105px] sm:w-32 py-1 rounded-3xl'>
+        <button className='bg-transparent border-2 border-white  text-white font-bold flex items-center justify-center gap-1  w-[105px] sm:w-30 py-[0.7px]  rounded-3xl'>
           <User/>
           Sign in</button>
+          <div className='flex itesm-center justify-center gap-4 text-xl text-white border-l pl-3 py-1 border-white'>
+            <Twitter/>
+            <Instagram/>
+          </div>
+          
       </div>
     </div>
   )
