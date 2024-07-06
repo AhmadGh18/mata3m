@@ -3,8 +3,24 @@ import { CSearch, Delivery, Menu } from './icons'
 
 const About = () => {
   return (
-    <div>
-        <div className='w-[80%] m-auto p-2 mt-10'>
+    <div className='w-full bg-white p-10'>
+        <p className='text-center text-2xl font-Acme font-bold text-orange'>How it works</p>
+        <div className='w-full flex items-center justify-center gap-4 mt-5 p-10 font-outfit'>
+            <div className='ww w-72 h-44 bg-[url("images/search.jpg")]  bg-cover bg-center relative flex justify-center'>
+                <p className='absolute bottom-4 px-7 text-white font-bold text-xl text-center'>Search for nearby restaurant</p>
+            </div>
+
+            <div className='ww w-72 h-44 bg-[url("images/menu.jpg")]  bg-cover bg-center relative flex justify-center'>
+                <p className='absolute px-9 bottom-4 text-white font-bold text-xl text-center'>Choose your menu items</p>
+            </div>
+
+            <div className='ww  w-72 h-44 bg-[url("images/order.jpg")]  bg-cover bg-center relative flex justify-center'>
+                <p className='absolute px-9 bottom-4 text-white font-bold text-xl text-center'>Order your desired food</p>
+            </div>
+        </div>
+
+
+        {/* <div className='w-[80%] m-auto p-2 mt-10 bg-lightgray2'>
             <p className='font-bold text-orange text-2xl text-center'>How it works</p>
             <div className='flex items-center justify-center flex-wrap gap-24 pt-5 pl-12'>
                
@@ -54,7 +70,7 @@ const About = () => {
                 </div>
 
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

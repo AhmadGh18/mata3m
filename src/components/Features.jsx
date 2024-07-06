@@ -4,8 +4,8 @@ import { FastFood, FoodBank, Location, MDiscount, MReviews, User } from './icons
 const Features = () => {
   return (
     <div>
-        <div className='w-[80%] m-auto mt-20 p-2'>
-            <p className='font-bold text-2xl text-center text-orange'>Services</p>
+        <div className='w-[80%] m-auto p-10'>
+            <p className='font-bold text-2xl text-center text-orange font-Acme'>Services</p>
             <div className='flex items-center justify-center flex-wrap gap-4 p-4 mt-4'>
                <div className='h-52 w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
                     <span className='text-5xl text-orange'><FastFood/></span>

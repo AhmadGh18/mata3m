@@ -6,6 +6,7 @@ import About from "./components/About";
 import Nearby from "./components/Nearby";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
+import Offer from "./components/Offer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* <Navbar /> */}
       <Search />
       <About />
+      <Offer/>
       <Features />
       <Footer/>
     </div>
