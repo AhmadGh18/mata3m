@@ -4,27 +4,40 @@
   }
 
 .radius{
-                
-/* border-radius: 100% 0% 21% 79% / 100% 77% 23% 0%; */
-            
-            
-/* border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%; */
-
-            
-/* border-radius: 100% 0% 30% 70% / 100% 70% 30% 0%; */
-
-
-            
-            
-border-radius: 100% 0% 40% 60% / 100% 57% 43% 0%;
-
-          
-
-          
-          
-          
-}
+    border-radius: 100% 0% 40% 60% / 100% 57% 43% 0%;           
+  }
 
 .ww {
   box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.2), inset 0 -65px 80px 0px rgb(59, 59, 59);
 }
+
+.btn{
+  z-index: 2;
+  transition: color 0.4s linear;
+}
+
+.btn:hover{
+  color: #fff;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #f55c26;
+  transition: transform 0.5s;
+  transform-origin: 1 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  transform: scaleX(0);
+  z-index: -1;
+}
+
+.btn:hover::before{
+  transform: scaleX(1);
+
+}
+
+

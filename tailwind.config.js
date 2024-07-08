@@ -21,6 +21,10 @@ export default {
       outfit: ["Outfit", "sans-serif"],
       Acme: ["Acme", "sans-serif"],
     },
+
+    animation: {
+      spin : 'spin 6s linear infinite'
+    },
    
     extend: {
     },

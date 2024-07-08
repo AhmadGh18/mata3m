@@ -3,7 +3,7 @@ import { CSearch, Instagram, Twitter, User } from './icons'
 
 const Navbar = () => {
   return (
-    <div className='flex h-14 items-center justify-between px-10 sm:px-16'>
+    <div className='flex h-14 items-center justify-between px-3 sm:px-16'>
       <div className=' w-32 flex items-center justify-center'>
         <img className='w-full h-24' src="images/bitesLogo-Photoroom.png" alt="" />
       </div>
@@ -18,12 +18,13 @@ const Navbar = () => {
       <div className='flex items-center justify-center gap-2'>
         
         
-        <button className='bg-transparent border-2 border-white  text-white font-bold flex items-center justify-center gap-1  w-[105px] sm:w-30 py-[0.7px]  rounded-3xl'>
+        <button className='btn bg-none relative before:rounded-3xl border-2 border-white  text-white font-bold flex items-center justify-center gap-1  w-[105px] sm:w-30 py-[0.7px]  rounded-3xl'>
           <User/>
           Sign in</button>
           <div className='flex itesm-center justify-center gap-4 text-xl text-white border-l pl-3 py-1 border-white'>
-            <Twitter/>
-            <Instagram/>
+            <span className='cursor-pointer hover:text-orange'><Twitter/></span>
+            <span className='cursor-pointer hover:text-orange'><Instagram/></span>
+            
           </div>
           
       </div>

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='w-full bg-white p-10'>
         <p className='text-center text-2xl font-Acme font-bold text-orange'>How it works</p>
-        <div className='w-full flex items-center justify-center gap-4 mt-5 p-10 font-outfit'>
+        <div className='w-full flex items-center justify-center gap-4 mt-5 p-10 font-outfit flex-wrap'>
             <div className='ww w-72 h-44 bg-[url("images/search.jpg")]  bg-cover bg-center relative flex justify-center'>
                 <p className='absolute bottom-4 px-7 text-white font-bold text-xl text-center'>Search for nearby restaurant</p>
             </div>
