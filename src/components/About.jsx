@@ -3,7 +3,7 @@ import { CSearch, Delivery, Menu } from './icons'
 
 const About = () => {
   return (
-    <div className='w-full bg-white p-10'>
+    <div className='w-full bg-white px-0 py-4 sm:px-10 sm:py-10'>
         <p className='text-center text-2xl font-Acme font-bold text-orange'>How it works</p>
         <div className='w-full flex items-center justify-center gap-4 mt-5 p-10 font-outfit flex-wrap'>
             <div className='ww w-72 h-44 bg-[url("images/search.jpg")]  bg-cover bg-center relative flex justify-center'>

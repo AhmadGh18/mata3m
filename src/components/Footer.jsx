@@ -4,7 +4,7 @@ import { ArrowRight, BMail, EPhone } from './icons'
 const Footer = () => {
   return (
     <div className='bg-black w-full text-white pb-5'>
-        <div className='w-full flex flex-col sm:flex-row items-center justify-center flex-wrap'>
+        <div className='w-full flex flex-col sm:flex-row items-center justify-center'>
         <div className='w-full sm:w-1/2 p-5 sm:p-10'>
             <p className='text-2xl font-bold'> Get In Touch</p>
             <p className='w-full sm:w-3/4 mt-2 text-sm text-gray'>For queries, please do not hesitate to reach out. We will make sure to respond as soon as possible.</p>
