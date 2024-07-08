@@ -6,8 +6,8 @@ const Footer = () => {
     <div className='bg-black w-full text-white pb-5'>
         <div className='w-full flex flex-col sm:flex-row items-center justify-center'>
         <div className='w-full sm:w-1/2 p-5 sm:p-10'>
-            <p className='text-2xl font-bold'> Get In Touch</p>
-            <p className='w-full sm:w-3/4 mt-2 text-sm text-gray'>For queries, please do not hesitate to reach out. We will make sure to respond as soon as possible.</p>
+            <p className='text-2xl font-bold font-nunito'> Get In Touch</p>
+            <p className='w-full sm:w-3/4 mt-2 text-sm text-gray font-outfit'>For queries, please do not hesitate to reach out. We will make sure to respond as soon as possible.</p>
             <div className='flex   items-center justify-center sm:justify-normal gap-8 mt-5'>
     
                 <div className='flex items-center justify-center  gap-2'>
@@ -15,8 +15,8 @@ const Footer = () => {
                         <span className='text-2xl text-orange'><EPhone/></span>
                     </div>
                     <div className=''>
-                        <p className='font-bold text-lg'>Phone</p>
-                        <p className='text-sm text-gray'>(+961)71-124 123</p>
+                        <p className='font-bold text-lg font-outfit'>Phone</p>
+                        <p className='text-sm text-gray font-outfit'>(+961)71-124 123</p>
                     </div>
                 </div>
 
@@ -25,8 +25,8 @@ const Footer = () => {
                         <span className='text-2xl text-orange'><BMail/></span>
                     </div>
                     <div className=''>
-                        <p className='font-bold text-lg'>Email</p>
-                        <p className='text-sm text-gray'>Bites@info.com</p>
+                        <p className='font-bold text-lg font-outfit'>Email</p>
+                        <p className='text-sm text-gray font-outfit'>Bites@info.com</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <hr className='mt-7 text-gray' />
-            <p className='text-center  mt-6 text-sm'>© 2024 Moedev. All rights reserved.</p>
+            <p className='text-center  mt-6 text-sm font-outfit'>© 2024 MoeDev. All rights reserved.</p>
         <div>
 
         </div>

@@ -12,7 +12,7 @@ const Features = () => {
     <div>
         <div className='w-[80%] m-auto py-5 px-0 sm:px-10 sm:py-10'>
             <p className='font-bold text-2xl text-center text-orange font-Acme'>Services</p>
-            <div className='hidden sm:flex items-center justify-center flex-wrap gap-4 p-0 sm:p-4 mt-4'>
+            <div className='hidden sm:flex items-center justify-center flex-wrap gap-4 p-0 sm:p-4 mt-4 font-outfit'>
                <div className='h-52 w-72 sm:w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
                     <span className='text-5xl text-orange'><FastFood/></span>
                     <p className='font-bold mt-2 text-lg'>Seamless Ordering</p>
@@ -38,7 +38,7 @@ const Features = () => {
                </div>
             </div>
 
-            <div className='block sm:hidden'>
+            <div className='block sm:hidden font-outfit'>
                <Swiper
                className='m-auto w-full '
                modules={[Autoplay, Pagination]}
@@ -55,7 +55,7 @@ const Features = () => {
                     <SwiperSlide className='w-full   flex items-center justify-center mt-10'>
                          <div className='h-52 w-72 sm:w-52 bg-white border-b-4 border-orange p-6 shadow-xl'>
                               <span className='text-5xl text-orange'><FastFood/></span>
-                              <p className='font-bold mt-2 text-lg'>Seamless Ordering</p>
+                              <p className='font-bold mt-2 text-lg '>Seamless Ordering</p>
                               <p className='text-xs font-semibold text-gray mt-3'>Experience easy ordering with simple navigation and live order updates.</p>
                          </div>
                      </SwiperSlide>
